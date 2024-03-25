@@ -151,8 +151,6 @@ submitBtn.addEventListener('click', () => {
     }
 });
 
-
-
 function showResult() {
     quiz.innerHTML = `
         <h2 style="font-size: 1.5em;">You Answered ${score}/${quizData.length} Questions Correctly</h2>
